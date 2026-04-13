@@ -1,0 +1,12 @@
+src/
+.gitignore
+.github/
+.vscode/
+.cursor/
+.graphra/
+tsconfig.json
+*.ts
+!dist/**/*.d.ts
+node_modules/
+*.tsbuildinfo
+src/utils/contexta.db
