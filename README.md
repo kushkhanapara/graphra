@@ -16,7 +16,7 @@
 AI coding tools re-read your entire codebase on every prompt. **graphra fixes that.** It builds a structural index of your code, then gives any AI tool — Copilot, Cursor, Claude, ChatGPT, or local LLMs — precisely the context it needs.
 
 ```bash
-npm install -g graphra    # Install once
+npm install -g aidex-graphra    # Install once
 cd your-project
 graphra init              # Auto-detect language, framework, structure
 graphra generate           # Index codebase (incremental, <1s on re-runs)
@@ -136,7 +136,7 @@ Automatically optimizes context size for your model. graphra uses a smart token 
 ### 1. Install
 
 ```bash
-npm install -g graphra
+npm install -g aidex-graphra
 ```
 
 ### 2. Initialize & Index

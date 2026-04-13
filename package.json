@@ -1,5 +1,5 @@
 {
-  "name": "graphra",
+  "name": "aidex-graphra",
   "version": "1.0.0",
   "description": "Graphra — the universal code context engine for AI tools. Zero-config, local-first.",
   "main": "dist/cli.js",
