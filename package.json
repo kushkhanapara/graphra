@@ -1,6 +1,6 @@
 {
   "name": "graphra",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Graphra — the universal code context engine for AI tools. Zero-config, local-first.",
   "main": "dist/cli.js",
   "bin": {

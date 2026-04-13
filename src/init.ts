@@ -233,7 +233,7 @@ export function initProject(root: string = "."): ProjectConfig {
   const { include, ignore } = buildPatterns(detection);
 
   const config: ProjectConfig = {
-    version: "2.0.0",
+    version: "1.0.0",
     language: Array.from(detection.languages),
     framework: Array.from(detection.frameworks),
     structure: detection.structure,

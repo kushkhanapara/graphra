@@ -23,7 +23,7 @@ const program = new Command();
 program
   .name("graphra")
   .description("Graphra — the universal code context engine for AI tools")
-  .version("2.0.0");
+  .version("1.0.0");
 
 // ============================================
 // Init — auto-detect and configure

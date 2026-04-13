@@ -29,7 +29,7 @@ const MCP_DEFAULT_BUDGET = 4000;
 
 export async function startMcpServer() {
   const server = new Server(
-    { name: "graphra", version: "2.0.0" },
+    { name: "graphra", version: "1.0.0" },
     {
       capabilities: {
         tools: {},
