@@ -1,0 +1,66 @@
+{
+  "name": "graphra",
+  "version": "2.0.0",
+  "description": "Graphra — the universal code context engine for AI tools. Zero-config, local-first.",
+  "main": "dist/cli.js",
+  "bin": {
+    "graphra": "dist/cli.js",
+    "graphra-mcp": "dist/mcp.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "mcp": "ts-node src/mcp.ts",
+    "generate": "ts-node src/cli.ts generate",
+    "context": "ts-node src/cli.ts context",
+    "search": "ts-node src/cli.ts search",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "ai",
+    "context",
+    "codebase",
+    "embeddings",
+    "mcp",
+    "code-search",
+    "code-context",
+    "copilot",
+    "cursor",
+    "claude",
+    "neural-embeddings",
+    "bm25",
+    "pagerank",
+    "sqlite",
+    "typescript"
+  ],
+  "author": "Graphra Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Graphra-cli/Graphra"
+  },
+  "homepage": "https://github.com/Graphra-cli/Graphra#readme",
+  "bugs": {
+    "url": "https://github.com/Graphra-cli/Graphra/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@xenova/transformers": "^2.17.2",
+    "better-sqlite3": "^12.8.0",
+    "commander": "^14.0.3",
+    "globby": "^16.2.0",
+    "ts-morph": "^27.0.2",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
